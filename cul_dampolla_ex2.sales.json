@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "60a3b2c1d4e5f6789a0b1c12"
+  },
+  "glassesId": {
+    "$oid": "60a3b2c1d4e5f6789a0b1c02"
+  },
+  "clientId": {
+    "$oid": "65a3b2c1d4e5f6789a0b1c01"
+  },
+  "employeeId": {
+    "$oid": "67a3b2c1d4e5f6789a0b1c99"
+  },
+  "salesDateTime": {
+    "$date": "2026-06-10T11:45:00.000Z"
+  },
+  "prescription": {
+    "left": 2.3,
+    "right": 2
+  },
+  "glass_color": {
+    "left": "blue",
+    "right": "blue"
+  }
+},
+{
+  "_id": {
+    "$oid": "60a3b2c1d4e5f6789a0b1c13"
+  },
+  "glassesId": {
+    "$oid": "60a3b2c1d4e5f6789a0b1c02"
+  },
+  "clientId": {
+    "$oid": "65a3b2c1d4e5f6789a0b1c02"
+  },
+  "employeeId": {
+    "$oid": "67a3b2c1d4e5f6789a0b1c99"
+  },
+  "salesDateTime": {
+    "$date": "2026-06-11T16:20:00.000Z"
+  },
+  "prescription": {
+    "left": -1,
+    "right": -1.25
+  },
+  "glass_color": {
+    "left": "green",
+    "right": "green"
+  }
+}]

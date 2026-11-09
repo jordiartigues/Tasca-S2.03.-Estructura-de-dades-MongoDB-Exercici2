@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "60a3b2c1d4e5f6789a0b1c02"
+  },
+  "brand": "Rayban",
+  "frametype": "metallic",
+  "frameColor": "black",
+  "price": 127,
+  "supplier": {
+    "_id": {
+      "$oid": "66a3b2c1d4e5f6789a0b1c01"
+    },
+    "name": "Almacen 1",
+    "address": {
+      "street": "Meridiana",
+      "number": "20",
+      "floor": "2",
+      "door": "1",
+      "city": "Barcelona",
+      "zipcode": "08001",
+      "country": "Spain"
+    },
+    "phone": "9347645923",
+    "fax": "9345429654",
+    "nif": "754389345K"
+  },
+  "sales": [
+    {
+      "_id": {
+        "$oid": "60a3b2c1d4e5f6789a0b1c12"
+      },
+      "clientId": {
+        "$oid": "65a3b2c1d4e5f6789a0b1c01"
+      },
+      "clientName": "Client Name 1",
+      "salesDateTime": {
+        "$date": "2026-06-10T11:45:00.000Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "60a3b2c1d4e5f6789a0b1c13"
+      },
+      "clientId": {
+        "$oid": "65a3b2c1d4e5f6789a0b1c02"
+      },
+      "clientName": "Client Name 2",
+      "salesDateTime": {
+        "$date": "2026-06-11T16:20:00.000Z"
+      }
+    }
+  ]
+}]

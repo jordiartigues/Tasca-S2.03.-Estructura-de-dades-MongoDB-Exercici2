@@ -1,0 +1,18 @@
+[{
+  "_id": "65a3b2c1d4e5f6789a0b1c01",
+  "name": "Client Name 1",
+  "address": "Rocafort 155",
+  "phone": "678921236",
+  "email": "email1@email.com",
+  "registrationDate": "2023-09-23",
+  "recommendedBy": null
+},
+{
+  "_id": "65a3b2c1d4e5f6789a0b1c02",
+  "name": "Client Name 2",
+  "address": "Balmes 55",
+  "phone": "612345678",
+  "email": "email2@email.com",
+  "registrationDate": "2024-01-15",
+  "recommendedBy": "65a3b2c1d4e5f6789a0b1c01"
+}]
